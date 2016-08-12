@@ -1,0 +1,8 @@
+'''
+Created on Jul 27, 2016
+
+@author: trannh08
+'''
+my_file = open("output.txt", "r")
+print my_file.read()
+my_file.close()

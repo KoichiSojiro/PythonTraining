@@ -1,0 +1,14 @@
+'''
+Created on May 11, 2016
+
+@author: trannh08
+'''
+my_list = [i**2 for i in range(1,11)]
+# Generates a list of squares of the numbers 1 - 10
+
+f = open("C:\\Users\\trannh08\\Downloads\\output.txt", "o")
+
+for item in my_list:
+    f.write(str(item) + "\n")
+
+f.close()
